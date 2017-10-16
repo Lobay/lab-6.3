@@ -8,7 +8,7 @@ char symbol = argv [2][0];
 char symbol = argv [3][0];
 for (int i=0; i < str1.length(); i++)
 {
-   if ( string[i]==symbol)
+   if ( str1[i]==symbol)
    str1[i] = symbol2;
 }
 cout << str1 << endl;
